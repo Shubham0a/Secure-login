@@ -1,0 +1,137 @@
+html{
+	display: block;
+}
+body{
+	display: block;
+	margin: 0px;
+	background-color: darkslategrey;
+	background-image: url("body.jpg");
+}
+body header{
+	position: sticky;
+	color: brown;
+	background-color: lightskyblue;
+	padding: 1em;
+	border-style: hidden;
+	border-width: 6px;
+	margin: 0em;
+}
+#creapo{
+	font-family: arial black;
+	font-size: 2em;
+}
+body section{
+	text-align: center;
+	padding: 3%;
+	margin-top: 4%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 10px;
+	background-color: lightskyblue;
+	background-image: url("frmbox.jpg");
+}
+section h3{
+	font-family: cursive;
+	padding-bottom: 3px;
+}
+.signupform{
+	display: block;
+	padding: 1em;
+	margin: 10px;
+}
+.loggedform{
+	display: block;
+	padding: 0em;
+	margin: 4px;
+}
+body form{
+	display: block;
+	text-align: center;
+}
+body form .inputid:focus{
+	background-color: #ccc;
+}
+body form input .btm{
+	color: violet;
+}
+form div{
+	margin: 5px;
+}
+.btn{
+	margin: 10px;
+}
+.btn:hover{
+	background-color: dodgerblue;
+}
+body .register{
+	font-family: fantasy;
+	color: orangered;
+	text-shadow: darkred;
+}
+.register:hover{
+	color: darkred;
+}
+body footer{
+	/*position: fixed;*/
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+	margin-top: 4.5em;
+	padding: 1%;
+	background-color: lightskyblue;
+}
+footer h6{
+	padding: 1em;
+	margin: 0em;
+	text-align: right;
+}
+#ads img{
+	width: 100px;
+	height: 50px;
+	margin-top: -5%;
+	float: right;
+	background-color: green;
+	animation-name: crtanim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+}
+@keyframes crtanim{
+	0%   {background-color: cornflowerblue; border-radius: 5px;}
+	25%  {background-color: green; border-radius: 10px; width: 150px; height: 75px;}
+	50%  {background-color: pink; border-radius: 20px; width: 175px; height: 87.5px;}
+	100% {background-color: greenyellow; border-radius: 30px; width: 200px; height: 100px;}
+}
+body .ads{
+	color: violet;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.tryagn{
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	right: 35%;
+	border-style: solid;
+	border-color: orangered;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+}
+.tryagn img{
+	width: 100px;
+}
+.tryagn p{
+	color: darkred;
+	margin: 10px;
+}
+.tryagn button{
+	background-color: yellow;
+	padding: 5px;
+	border-radius: 5px;
+	border-color: darkred;
+	margin: 10px;
+}
