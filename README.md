@@ -1,4 +1,4 @@
-# login dummy model
+# Secure Login model
 It is a model of login page with security.
 
 ## Check the design
